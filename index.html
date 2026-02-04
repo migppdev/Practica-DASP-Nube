@@ -1,65 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Mi Pagina CSS</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
     <header>
-        <h1>Mi Pagina CSS Completa</h1>
-        <nav>
-            <ul>
-                <li><a href="#texto">Texto</a></li>
-                <li><a href="#tabla">Tabla</a></li>
-                <li><a href="#formulario">Formulario</a></li>
-            </ul>
-        </nav>
+      <h1>Mi Pagina CSS Completa</h1>
+      <nav>
+        <ul>
+          <li id="nav-texto"><a href="#texto">Texto</a></li>
+          <li><a href="#tabla">Tabla</a></li>
+          <li><a href="#formulario">Formulario</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="texto">
-            <h2>Propiedades de Texto</h2>
-            <p>Contenido simple para estilos de texto. Justificado y legible.</p>
-        </section>
-        <section id="lista">
-            <h2>Listas</h2>
-            <ul>
-                <li>Elemento uno</li>
-                <li>Elemento dos</li>
-                <li>Elemento tres</li>
-            </ul>
-        </section>
-        <section id="tabla">
-            <h2>Tabla</h2>
-            <table>
-                <thead>
-                    <tr><th>Nombre</th><th>Edad</th><th>Curso</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td>Julio</td><td>18</td><td>1 DAW</td></tr>
-                    <tr><td>Jose</td><td>18</td><td>1 DAW</td></tr>
-                </tbody>
-            </table>
-        </section>
-        <section id="formulario">
-            <h2>Formulario</h2>
-            <form>
-                <label>Nombre: <input type="text" name="nombre"></label><br>
-                <label>Email: <input type="email" name="email"></label><br>
-                <label>Mensaje: <textarea name="mensaje"></textarea></label><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
+      <section id="texto">
+        <h2>Propiedades de Texto</h2>
+        <p>Contenido simple para estilos de texto. Justificado y legible.</p>
+      </section>
+      <section id="lista">
+        <h2>Listas</h2>
+        <ul>
+          <li>Elemento uno</li>
+          <li>Elemento dos</li>
+          <li>Elemento tres</li>
+        </ul>
+      </section>
+      <section id="tabla">
+        <h2>Tabla</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Curso</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Julio</td>
+              <td>18</td>
+              <td>1 DAW</td>
+            </tr>
+            <tr>
+              <td>Jose</td>
+              <td>18</td>
+              <td>1 DAW</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="formulario">
+        <h2>Formulario</h2>
+        <form>
+          <label>Nombre: <input type="text" name="nombre" /></label><br />
+          <label>Email: <input type="email" name="email" /></label><br />
+          <label>Mensaje: <textarea name="mensaje"></textarea></label><br />
+          <input id="btn-prueba" type="submit" value="Enviar" />
+        </form>
+      </section>
     </main>
     <aside>
-        <h3>Enlaces Utiles</h3>
-        <ul>
-            <li><a href="#">CSS Reference</a></li>
-            <li><a href="#">MDN Web Docs</a></li>
-        </ul>
+      <h3>Enlaces Utiles</h3>
+      <ul>
+        <li><a href="#">CSS Reference</a></li>
+        <li><a href="#">MDN Web Docs</a></li>
+      </ul>
     </aside>
     <footer>
-        <p>Autor: Julio Hidalgo, Grupo 1 DAW, 29/01/2026</p>
+      <p>Autor: Julio Hidalgo, Grupo 1 DAW, 29/01/2026</p>
     </footer>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
